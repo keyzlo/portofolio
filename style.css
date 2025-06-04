@@ -1,0 +1,101 @@
+body {
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background: #262626;
+      color: #fffefe;
+    }
+    header {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 30px 10px;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 10px;
+      border: 3px solid white;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .contact-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .contact-icons a {
+      font-size: 30px;
+      margin: 0 15px;
+      color: #ffffff;
+      transition: transform 0.2s;
+    }
+    .contact-icons a:hover {
+      transform: scale(1.2);
+      color: #ffffff; 
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .project {
+      background: rgb(0, 0, 0);
+      border: 1px solid #ddd;
+      padding: 20px;
+      flex: 1 1 calc(33% - 40px);
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+    h2 {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .skill {
+      margin-bottom: 20px;
+      
+    }
+
+    .skill-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+      justify-content: center;
+    }
+
+    .progress-bar {
+      background-color: #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      height: 25px;
+      width: 50%;
+    }
+
+    .progress {
+      height: 80%;
+      text-align: right;
+      padding-right: 10px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      line-height: 25px;
+      background: linear-gradient(to right, #000000, #ffffff);
+      border-radius: 10px;
+    }
+    
